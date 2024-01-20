@@ -1,0 +1,88 @@
+html {
+     text-align: center ;
+}
+
+body { font: 2em sans-serif;color: #f7f3f3;
+       background-color: #e4e9fd;
+       background-image: -webkit-linear-gradient(60deg, #3e91df , #f5f5f5e8 );
+       font-family: "helvetica neue"; 
+       min-height: 95vh;
+}
+.box { min-width: 300px;
+       max-width: 550px;
+       margin: 50px auto;
+       background: white;
+       border-radius: 5px;
+       box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.7);
+}
+
+button {
+       min-height: 50px;
+       width: 50px;
+       border-radius: 50%;
+       border-color: transparent;
+       background-color: #062aa1;
+       color: #fff;
+       font-size: 30px;
+       border-width: 0;
+}
+
+#heading {
+       background-color: #a5d2fc;
+       text-align: center;
+}
+h1 {   display: block;
+       font-size: 2em;
+       margin-block-start: 0.67em;
+       margin-block-end: 0.67em;
+       margin-inline-start: 0px;
+       margin-inline-end: 0px;
+       font-weight: bold;
+       padding: 10px;
+}
+
+img, svg {
+       margin: 0 0.5rem;
+}
+
+.item { min-height: 70px;
+       display: flex;
+       align-items: center;
+       border-bottom: 1px solid #f1f1f1;
+}
+ .item, checkbox {
+       margin: 2rem;
+ }     
+.navbar, navlink {
+       margin: 0 2rem;
+}
+.item:last-child {
+       width: 500px;
+}
+
+p {
+       margin-left: 2rem;
+}
+
+.userInput{
+       background: transparent;
+       border-style: none;
+       margin: 0 auto;
+       font-size: 20px;
+       font-weight: 200;
+       width: 313px;
+       text-align: center;
+}
+
+#submit {
+       background-color: #3e91df;
+       border-radius: 50%;
+       font-size: 30px;
+       min-height: 50px;
+       size: 15px;
+       width: 50px;
+}
+
+.finished {
+       text-decoration: line-through;
+}
